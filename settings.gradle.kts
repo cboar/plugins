@@ -25,6 +25,8 @@
 
 rootProject.name = "OpenOSRS Plugins"
 
+include(":customboar")
+
 include(":achievementdiary")
 include(":agility")
 include(":alchemicalhydra")
