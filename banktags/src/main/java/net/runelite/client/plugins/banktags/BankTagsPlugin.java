@@ -164,7 +164,6 @@ public class BankTagsPlugin extends Plugin implements MouseWheelListener, KeyLis
 		return configManager.getConfig(BankTagsConfig.class);
 	}
 
-	@Override
 	public void resetConfiguration()
 	{
 		List<String> extraKeys = Lists.newArrayList(
