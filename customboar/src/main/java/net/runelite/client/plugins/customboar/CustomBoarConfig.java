@@ -14,7 +14,7 @@ public interface CustomBoarConfig extends Config {
 		name = "Volume",
 		description = "Alert volume"
 	)
-	@Units(Units.POINTS)
+	@Units(Units.PERCENT)
 	default int volume()
 	{
 		return 75;
